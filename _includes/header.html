@@ -1,0 +1,23 @@
+<header>
+  <nav>
+    <div class="title-bar" data-responsive-toggle="primary-nav" data-hide-for="large">
+        <button class="menu-icon" type="button" data-toggle="primary-nav"></button>
+        <h2 class="title-bar-title menu-text color-white font-wide font-bold padding-left-1"><a href="{{ site.url }}" class="color-white hover-underline">{{ site.title }}</a></h2>
+      </div>
+      
+      <div class="top-bar" id="primary-nav">
+        <div class="top-bar-left">
+          <ul class="dropdown menu" data-dropdown-menu>
+            <li class="menu-text color-white font-bold font-wide hide-for-small-only hide-for-medium-only"><h4><a href="{{ site.url }}" class="color-white hover-underline">{{ site.title }}</a></h4></li>
+          </ul>
+        </div>
+        <div class="top-bar-right">
+          <ul class="menu">
+            {% for menu_item in site.data.site_nav %}
+              <li><a href="{% if menu_item.url contains '://' %}{{ menu_item.url }}{% else %}{{ site.url }}{{ menu_item.url }}{% endif %}" class="color-white hover-underline">{{ menu_item.name | upcase }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+  </nav>
+</header>
