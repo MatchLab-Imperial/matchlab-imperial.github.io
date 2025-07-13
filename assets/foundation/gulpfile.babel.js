@@ -55,8 +55,8 @@ function clean(done) {
 // Copy files out of the assets folder
 // This task skips over the "img", "js", and "scss" folders, which are parsed separately
 function copy() {
-  return gulp.src(PATHS.assets)
-    .pipe(gulp.dest(PATHS.dist + '/assets'));
+  return gulp.src(PATHS.assets, { base: './' }) // preserve original folder structure
+    .pipe(gulp.dest(PATHS.dist));
 }
 
 // Copy page templates into finished HTML files
@@ -106,7 +106,7 @@ function sassBuild() {
     .pipe(postcss(postCssPlugins))
     .pipe($.if(PRODUCTION, $.cleanCss({ compatibility: 'ie11' })))
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
-    .pipe(gulp.dest(PATHS.dist + '/assets/css'))
+    .pipe(gulp.dest(PATHS.dist + '/css'))
     .pipe(browser.reload({ stream: true }));
 }
 
@@ -140,7 +140,7 @@ function javascript() {
       .on('error', e => { console.log(e); })
     ))
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
-    .pipe(gulp.dest(PATHS.dist + '/assets/js'));
+    .pipe(gulp.dest(PATHS.dist + '/js'));
 }
 
 // Copy images to the "dist" folder
@@ -158,7 +158,7 @@ function images() {
         ]
       })
     ])))
-    .pipe(gulp.dest(PATHS.dist + '/assets/img'));
+    .pipe(gulp.dest(PATHS.dist + '/img'));
 }
 
 // Start a server with BrowserSync to preview the site in
