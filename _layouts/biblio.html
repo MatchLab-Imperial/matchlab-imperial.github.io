@@ -75,11 +75,8 @@
   {% endif %}
 
   <div class="links padding-top-1 small button-group">
-<!--   {% if entry.abstract %}
-    [<a class="abstract">Abs</a>]
-  {% endif %} -->
   {% if entry.url %}
-    <a href="{{entry.url}}" target="_blank" class="button small primary">link</a>
+    <a href="{{entry.url}}" target="_blank" class="button small primary">Project Page</a>
   {% endif %}
   {% if entry.arxiv %}
     <a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank" class="button small primary">arXiv</a>
