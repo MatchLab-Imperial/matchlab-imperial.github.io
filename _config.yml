@@ -5,7 +5,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: ""
 url: "https://matchlab-imperial.github.io"
 JEKYLL_ENV: "production"
-address_1: "Floor 10, Department of Electrical and Electronic Engineering"
+address_1: "Room 1015, Department of Electrical and Electronic Engineering"
 address_2: "Imperial College London"
 address_3: "South Kensington Campus, London SW7 2AZ"
 # site_logo: "/assets/images/logo1.png" # Site logo
