@@ -4,6 +4,7 @@ designation: Ph.D. (2023 ~ Present)
 photo: /assets/images/team/ye_mao.jpeg
 website: https://yebulabula.github.io/
 email: ye.mao21@imperial.ac.uk
+order: 3
 ---
 Ye received an M.Phil. in Medical Sciences from the University of Cambridge, an M.Sc. in Applied Machine Learning from Imperial College London, and a B.Sc. in Computer Science from King’s College London.
 

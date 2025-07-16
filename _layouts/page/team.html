@@ -16,7 +16,8 @@ layout: default
 Team members
 {% endcomment %}
 <section class="grid-container">
-  {% for member in site.team %}
+  {% assign team_sorted = site.team | sort: "order" %}
+  {% for member in team_sorted%}
     <div class="grid-x grid-margin-x grid-margin-y margin-top-3 padding-top-3">
       {% comment %}
       photo

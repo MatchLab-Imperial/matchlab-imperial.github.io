@@ -4,6 +4,7 @@ designation: Ph.D. (2024 ~ Present)
 photo: /assets/images/team/ranran_huang.jpeg
 website: 
 email: r.huang24@imperial.ac.uk
+order: 4
 ---
 Ranran received her M.Eng. from Tsinghua University, where she was supervised by Professor Yu Wang, and a B.Sc. from Wuhan University.
 

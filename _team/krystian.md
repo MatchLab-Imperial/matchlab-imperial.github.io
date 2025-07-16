@@ -4,6 +4,7 @@ designation: Professor in Computer Vision and Machine Learning
 photo: /assets/images/team/krystian.jpeg
 website: https://profiles.imperial.ac.uk/k.mikolajczyk
 email: k.mikolajczyk@imperial.ac.uk
+order: 1
 ---
 Krystian received his undergraduate degree from the AGH University of Science and Technology in Krakow, Poland, and completed his Ph.D. at the Institut National Polytechnique de Grenoble, France. He subsequently held research positions at INRIA, the University of Oxford, and the Technical University of Darmstadt. He joined the University of Surrey as a Lecturer and, in 2015, was appointed Reader at Imperial College London.
 
