@@ -1,19 +1,31 @@
 ---
 ---
+@article{ranran2025nopose,
+	title = {No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views},
+	journal = {International Conference on Computer Vision},
+	customauthor = {Ranran Huang, and Krystian Mikolajczyk},
+	year = {2025},
+	volume = {ICCV},
+	image = {/assets/images/publications/no_pose_at_all.png},
+	abstract = {We introduce SPFSplat, an efficient framework for 3D Gaussian splatting from sparse multi-view images, requiring \textbf{no ground-truth poses} during both training and inference. Our method simultaneously predicts Gaussians and camera poses from unposed images in a canonical space within a single feed-forward step. During training, the pose head estimates the poses at target views, which are supervised through the image rendering loss. Additionally, a reprojection loss is introduced to ensure alignment between Gaussians and the estimated poses of input views, reinforcing geometric consistency.  This pose-free training paradigm and efficient one-step feed-forward inference makes SPFSplat well-suited for practical applications. Despite the absence of pose supervision, our self-supervised SPFSplat achieves state-of-the-art performance in novel view synthesis, even under significant viewpoint changes. Furthermore, it surpasses recent methods trained with geometry priors in relative pose estimation, demonstrating its effectiveness in both 3D scene reconstruction and camera pose learning.},
+}
+
 @article{jing2025stereo,
 	title={Stereo Any Video: Temporally Consistent Stereo Matching},
 	url = {https://tomtomtommi.github.io/StereoAnyVideo/},
+	paper_url = {https://arxiv.org/abs/2503.05549},
 	journal={International Conference on Computer Vision},
 	customauthor = {Junpeng Jing, Weixun Luo, Ye Mao, and Krystian Mikolajczyk},
 	year={2025},
 	volume={ICCV},
-	image={/assets/images/publications/stereo_any_video.png},
+	image={/assets/images/publications/stereo_any_video.gif},
 	abstract={This paper introduces Stereo Any Video, a powerful framework for video stereo matching. It can estimate spatially accurate and temporally consistent disparities without relying on auxiliary information such as camera poses or optical flow. The strong capability is driven by rich priors from monocular video depth models, which are integrated with convolutional features to produce stable representations. To further enhance performance, key architectural innovations are introduced: all-to-all-pairs correlation, which constructs smooth and robust matching cost volumes, and temporal convex upsampling, which improves temporal coherence. These components collectively ensure robustness, accuracy, and temporal consistency, setting a new standard in video stereo matching. Extensive experiments demonstrate that our method achieves state-of-the-art performance across multiple datasets both qualitatively and quantitatively in zero-shot settings, as well as strong generalization to real-world indoor and outdoor scenarios.},
 }
 
 @article{ye2025hypo,
 	title = {Hypo3D: Exploring Hypothetical Reasoning in 3D},
 	url = {https://matchlab-imperial.github.io/Hypo3D/},
+	paper_url = {https://arxiv.org/abs/2502.00954},
 	abstract = {The rise of vision-language foundation models marks an advancement in bridging the gap between human and machine capabilities in 3D scene reasoning. Existing 3D reasoning benchmarks assume real-time scene accessibility, which is impractical due to the high cost of frequent scene updates. To this end, we introduce Hypothetical 3D Reasoning, namely Hypo3D, a benchmark designed to evaluate models' ability to reason without access to real-time scene data. Models need to imagine the scene state based on a provided change description before reasoning. Hypo3D is formulated as a 3D Visual Question Answering (VQA) benchmark, comprising 7,727 context changes across 700 indoor scenes, resulting in 14,885 question-answer pairs. An anchor-based world frame is established for all scenes, ensuring consistent reference to a global frame for directional terms in context changes and QAs. Extensive experiments show that state-of-the-art foundation models struggle to reason in hypothetically changed scenes. This reveals a substantial performance gap compared to humans, particularly in scenarios involving movement changes and directional reasoning. Even when the context change is irrelevant to the question, models often incorrectly adjust their answers.},
 	journal = {International Conference on Machine Learning},
 	customauthor = {Ye Mao, Weixun Luo, Junpeng Jing, Anlan Qiu, and Krystian Mikolajczyk},
@@ -25,6 +37,7 @@
 @article{ye2024open,
 	title = {OpenDlign: Open-World Point Cloud Understanding with Depth-Aligned Images},
 	url = {https://yebulabula.github.io/OpenDlign/},
+	paper_url = {https://arxiv.org/abs/2404.16538},
 	customauthor = {Ye Mao, Junpeng Jing, and Krystian Mikolajczyk},
 	journal = {Advances in Neural Information Processing Systems},
 	year = {2024},
@@ -37,6 +50,7 @@
 @article{jing2024bidavideo,
 	title = {Match Stereo Videos via Bidirectional Alignment},
 	url = {https://tomtomtommi.github.io/BiDAVideo/},
+	paper_url = {https://arxiv.org/abs/2409.20283},
 	customauthor = {Junpeng Jing, Ye Mao, Anlan Qiu, and Krystian Mikolajczyk},
 	journal = {arXiv preprint},
 	volume = {arXiv:2409.20283},
@@ -48,11 +62,12 @@
 @article{jing2024bidastereo,
 	title = {Match-Stereo-Videos: Bidirectional Alignment for Consistent Dynamic Stereo Matching},
 	url = {https://tomtomtommi.github.io/BiDAStereo/},
+	paper_url = {https://arxiv.org/abs/2403.10755},
 	customauthor = {Junpeng Jing, Ye Mao, and Krystian Mikolajczyk},
 	journal = {European Conference on Computer Vision},
 	year = {2024},
 	volume = {ECCV},
-	image = {/assets/images/publications/bidastereo.png},
+	image = {/assets/images/publications/bidastereo.gif},
 	abstract = {Dynamic stereo matching is the task of estimating consistent disparities from stereo videos with dynamic objects. Recent learning-based methods prioritize optimal performance on a single stereo pair, resulting in temporal inconsistencies. Existing video methods apply per-frame matching and window-based cost aggregation across the time dimension, leading to low-frequency oscillations at the scale of the window size. Towards this challenge, we develop a bidirectional alignment mechanism for adjacent frames as a fundamental operation. We further propose a novel framework, BiDAStereo, that achieves consistent dynamic stereo matching. Unlike the existing methods, we model this task as local matching and global aggregation. Locally, we consider correlation in a triple-frame manner to pool information from adjacent frames and improve the temporal consistency. Globally, to exploit the entire sequence’s consistency and extract dynamic scene cues for aggregation, we develop a motion-propagation recurrent unit. Extensive experiments demonstrate the performance of our method, showcasing improvements in prediction quality and achieving SoTA results on commonly used benchmarks.},
 }
 
