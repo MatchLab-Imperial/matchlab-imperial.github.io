@@ -28,39 +28,8 @@
     Author
     {% endcomment %}
     <div class="author">
-      <i class="fi-torsos-female-male fi-icon-color-secondary" title="Authors"></i>      
-      {% for author in entry.author_array %}
-        {% assign trim_first = author.first | remove: "<sup>#</sup>" %}
-        {% if forloop.length == 1 %}
-          {% if author.last == site.scholar.last_name and site.scholar.first_names contains trim_first %}
-            <span class="font-bold text-underline">{{author.last}}, {{author.first}}</span>
-          {% else %}
-            {{author.last}}, {{author.first}}
-          {% endif %}
-        {% else %}
-          {% unless forloop.last %}
-            {% if author.last == site.scholar.last_name and site.scholar.first_names contains trim_first %}
-              <span class="font-bold text-underline">{{author.last}}, {{author.first}}</span>,
-            {% else %}
-              {% if site.data.coauthors[author.last] %}
-                <a class="coauthor" href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>,
-              {% else %}
-                {{author.last}}, {{author.first}},
-              {% endif %}
-            {% endif %}
-          {% else %}
-            {% if author.last == site.scholar.last_name and site.scholar.first_names contains trim_first %}
-              and <span class="font-bold text-underline">{{author.last}}, {{author.first}}</span>
-            {% else %}
-              {% if site.data.coauthors[author.last] %}
-                and <a class="coauthor" href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.last}}, {{author.first}}</a>
-              {% else %}
-                and {{author.last}}, {{author.first}}
-              {% endif %}
-            {% endif %}
-          {% endunless %}
-        {% endif %}
-      {% endfor %}
+      <i class="fi-torsos-female-male fi-icon-color-secondary" title="Authors"></i>
+      <span>{{ entry.customauthor }}</span>
     </div>
     <div class="">
       {% if entry.type == "article" %}
