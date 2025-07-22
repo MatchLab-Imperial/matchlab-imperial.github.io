@@ -8,8 +8,8 @@ JEKYLL_ENV: "production"
 address_1: "Room 1015, Department of Electrical and Electronic Engineering"
 address_2: "Imperial College London"
 address_3: "South Kensington Campus, London SW7 2AZ"
-# site_logo: "/assets/images/logo1.png" # Site logo
-github_url: "https://github.com/MatchLab-Imperial/Matchlab-Imperial.github.io"
+site_logo: "/assets/images/icons/matchlab.png" # Site logo
+github_url: "https://github.com/MatchLab-Imperial"
 facebook_url: 
 instagram_url: 
 youtube_url: 
