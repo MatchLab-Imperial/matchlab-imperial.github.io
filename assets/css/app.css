@@ -5,6 +5,21 @@
  * https://get.foundation
  * Licensed under MIT Open Source
  */
+
+.course-image-centered {
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.course-image-centered img {
+  width: 600px;          /* Uniform width across all course images */
+  max-width: 100%;       /* Responsive fallback */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
 @media print, screen and (min-width: 40em) {
   .reveal, .reveal.tiny, .reveal.small, .reveal.large {
     right: auto;

@@ -4,10 +4,10 @@ layout: page/teaching
 description: Teaching
 hero_image: ""
 ---
-
-
-
 ### Deep Learning (Year 3, MSc)
+<div class="course-image-centered">
+  <img src="/assets/images/teaching/deep_learning.png" alt="Deep Learning">
+</div>
 In contrast to the machine learning, course deep learning will focus on deep neural network based learning. It introduces the background and illustrates how deep learning is impacting our understanding of intelligence and contributing to the practical design of intelligent machines. Deep learning is currently the most active area of research and development and in high demand for experts by hi-tech start-ups, large companies as well as academia. It is the preferred approach for modern AI and machine learning in any domain. Deep learning techniques enable us to automatically extract features from data so as to solve predictive tasks, such as speech recognition, object recognition, machine translation, question-answering, anomaly detection, medical diagnosis and prognosis, automatic algorithm configuration, personalisation, robot control, time series forecasting, and much more.
 
 Upon completion of this module, the student will be able to demonstrate and apply knowledge and understanding of:
@@ -22,6 +22,9 @@ Upon completion of this module, the student will be able to demonstrate and appl
 
 
 ### Computer Vision and Pattern Recognition (Year 4, MSc)
+<div class="course-image-centered">
+  <img src="/assets/images/teaching/computer_vision.png" alt="Computer Vision">
+</div>
 This course introduces areas of Computer Vision and Patter Recognition. Computer Vision is a field concerned with visual data captured by cameras, while Pattern Recognition offers techniques for processing data from diverse types of sensors.
 
 Data and signal processing techniques from these two fields are closely related and enable us to automatically extract information so as to solve predictive and decision based tasks, such as speech recognition, object recognition, machine translation, question-answering, anomaly detection, medical diagnosis and prognosis, automatic algorithm configuration, personalisation, robot control, time series forecasting, and much more.
@@ -35,8 +38,13 @@ The learnt topics are illustrated with applications: face recognition, or machin
 - Analyse and compare the strengths and weaknesses of popular approaches
 - Implement various algorithms in a range of CVPR applications through specific programming environments (Matlab, python)
 
+
 ### Applied Machine Learning Devices (MSc)
+<div class="course-image-centered">
+  <img src="/assets/images/teaching/applied_machine_learning.png" alt="Applied Machine Learning">
+</div>
 This hands-on, interdisciplinary course delves into the process of designing and developing smart devices equipped with advanced sensors, emphasizing the seamless integration of machine learning for intelligent data processing. Participants will master the entire lifecycle—from conceptualization to deployment—of smart devices capable of data collection, analysis, and decision-making. You will collaborate in a group of 4 students to design and implement a smart sensing device, use it to collect the data, train a machine learning model and evaluate it.
+
 By the end of the module the students should be able to:
 - Apply a comprehensive knowledge of mathematics, statistics, natural science and engineering principles to the solution of complex problems.
 - Formulate and analyse complex problems to reach substantiated conclusions.
@@ -53,6 +61,9 @@ By the end of the module the students should be able to:
 
 
 ### Machine Learning (Year 3, MSc)
+<div class="course-image-centered">
+  <img src="/assets/images/teaching/machine_learning.png" alt="Machine Learning">
+</div>
 The aim of this course is to introduce students to the theory and practice of modern machine learning methods. Extracting information from the unprecedented amount of data (aka. big data) that has been collected in recent years is a very important task in science and engineering, with great social and economical impact. Machine learning addresses the problem of how computers can learn and extract information automatically from data, and it is behind many methods used in artificial intelligence, data mining or adaptive system design. It is widely applied in practice in most disciplines where data is available, including, e.g., electrical engineering, computer science, or medicine. Students will learn the main concepts from theory and practice of how to convert observations given in the form of data into expertise. You will learn how to model learning and inference problems and how to design and analyse algorithms to solve them. The module will also introduce popular machine learning algorithms.
 
 Upon completion of this module, the student will be able to demonstrate and apply knowledge and understanding of:
