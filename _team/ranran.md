@@ -2,7 +2,7 @@
 name: Ranran Huang
 designation: Ph.D. (2024 ~ Present)
 photo: /assets/images/team/ranran_huang.jpeg
-website: 
+website: https://ranrhuang.github.io/
 email: r.huang24@imperial.ac.uk
 order: 4
 ---

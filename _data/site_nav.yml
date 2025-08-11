@@ -1,13 +1,9 @@
 # Site wide navigation
-# - name: Research
-#   url: "/research"
 - name: Publications
   url: "/publications"
 - name: Team
   url: "/team"
 - name: Teaching
   url: "/teaching"
-# - name: Resources
-#   url: "/resources"
 - name: Join
   url: "/join"
