@@ -6,4 +6,4 @@ website: https://tomtomtommi.github.io/
 email: j.jing23@imperial.ac.uk
 order: 2
 ---
-Junpeng is currently a second-year Ph.D. student at Imperial College London, affiliated with MatchLab. His research interests lie in computer vision, with a focus on 3D reconstruction from stereo imagery and 3D scene understanding.
+Junpeng is currently pursuing a Ph.D. degree at Imperial College London, UK. His research focuses on 3D reconstruction from stereo and 3D learning. He won the champion of Robust Vision Challenge in 2023. He has published several papers, including ESI highly cited and highlight papers, in top-tier journals and conferences including IEEE TPAMI, TCSVT, ICCV, ECCV, NeurIPS, and ICML, etc.
