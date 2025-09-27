@@ -1,5 +1,16 @@
 ---
 ---
+@article{ranran2025noposev2,
+	title = {SPFSplatV2: Efficient Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views},
+	url = {https://ranrhuang.github.io/spfsplatv2/},
+	paper_url = {https://arxiv.org/pdf/2509.17246v1},
+	journal = {In submission to IEEE Transactions on Pattern Analysis and Machine Intelligence},
+	customauthor = {Ranran Huang, and Krystian Mikolajczyk},
+	year = {2025},	
+	image = {/assets/images/publications/spfsplatv2.gif},
+	abstract = {We introduce SPFSplatV2, an efficient feed-forward framework for 3D Gaussian splatting from sparse multi-view images, requiring no ground-truth poses during training and inference. It employs a shared feature extraction backbone, enabling simultaneous prediction of 3D Gaussian primitives and camera poses in a canonical space from unposed inputs. A masked attention mechanism is introduced to efficiently estimate target poses during training, while a reprojection loss enforces pixel-aligned Gaussian primitives, providing stronger geometric constraints. We further demonstrate the compatibility of our training framework with different reconstruction architectures, resulting in two model variants. Remarkably, despite the absence of pose supervision, our method achieves state-of-the-art performance in both in-domain and out-of-domain novel view synthesis, even under extreme viewpoint changes and limited image overlap, and surpasses recent methods that rely on geometric supervision for relative pose estimation. By eliminating dependence on ground-truth poses, our method offers the scalability to leverage larger and more diverse datasets.},
+}
+
 @article{ranran2025nopose,
 	title = {No Pose at All: Self-Supervised Pose-Free 3D Gaussian Splatting from Sparse Views},
 	url = {https://ranrhuang.github.io/spfsplat/},
