@@ -1,9 +1,9 @@
 ---
 name: Junpeng Jing
-designation: Ph.D. (2023 ~ Present)
+designation: Ph.D. (2023 ~ 2026)
 photo: /assets/images/team/junpeng_jing.jpeg
 website: https://tomtomtommi.github.io/
 email: j.jing23@imperial.ac.uk
 order: 2
 ---
-Junpeng is currently pursuing a Ph.D. degree at Imperial College London, UK. His research focuses on 3D reconstruction from stereo and 3D learning. He won the champion of Robust Vision Challenge in 2023. He has published several papers, including ESI highly cited and highlight papers, in top-tier journals and conferences including IEEE TPAMI, TCSVT, ICCV, ECCV, NeurIPS, and ICML, etc.
+Junpeng received his Ph.D. degree from October 2023 to March 2026. His research focuses on stereo 3D reconstruction and 3D representation learning. He has published several papers in leading journals and conferences, including IEEE TPAMI, CVPR, ICCV, ECCV, NeurIPS, and ICML, some of which were recognized as ESI Highly Cited Papers and Highlight Papers. He won the championship in the Robust Vision Challenge 2023.
