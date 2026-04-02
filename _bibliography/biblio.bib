@@ -5,8 +5,8 @@
     title = {Lite Any Stereo: Efficient Zero-Shot Stereo Matching},
     url = {https://tomtomtommi.github.io/LiteAnyStereo/},
     paper_url = {https://arxiv.org/pdf/2511.16555v1},
-    journal = {arXiv},
-    year = {2025},
+    journal = {CVPR},
+    year = {2026},
     image = {/assets/images/publications/lite_any_stereo.png},
     abstract = {Recent advances in stereo matching have focused on accuracy, often at the cost of significantly increased model size. Traditionally, the community has regarded efficient models as incapable of zero-shot ability due to their limited capacity. In this paper, we introduce Lite Any Stereo, a stereo depth estimation framework that achieves strong zero-shot generalization while remaining highly efficient. To this end, we design a compact yet expressive backbone to ensure scalability, along with a carefully crafted hybrid cost aggregation module. We further propose a three-stage training strategy on million-scale data to effectively bridge the sim-to-real gap. Together, these components demonstrate that an ultra-light model can deliver strong generalization, ranking 1st across four widely used real-world benchmarks. Remarkably, our model attains accuracy comparable to or exceeding state-of-the-art non-prior-based accurate methods while requiring less than 1% of their computational cost, setting a new standard for efficient stereo matching.},
 }
@@ -16,10 +16,22 @@
     customauthor = {Ye Mao, Weixun Luo, Ranran Huang, Junpeng Jing, and Krystian Mikolajczyk},
     url = {https://matchlab-imperial.github.io/poma3d/},
     paper_url = {https://arxiv.org/pdf/2511.16567v1},
-    journal = {arXiv},
-    year = {2025},
+    journal = {CVPR Findings},
+    year = {2026},
     image = {/assets/images/publications/poma3d.gif},
     abstract = {In this paper, we introduce POMA-3D, the first self-supervised 3D representation model learned from point maps. Point maps encode explicit 3D coordinates on a structured 2D grid, preserving global 3D geometry while remaining compatible with the input format of 2D foundation models. To transfer rich 2D priors into POMA-3D, a view-to-scene alignment strategy is designed. Moreover, as point maps are view-dependent with respect to a canonical space, we introduce POMA-JEPA, a joint embedding-predictive architecture that enforces geometrically consistent point map features across multiple views. Additionally, we introduce ScenePoint, a point map dataset constructed from 6.5K room-level RGB-D scenes and 1M 2D image scenes to facilitate large-scale POMA-3D pretraining. Experiments show that POMA-3D serves as a strong backbone for both specialist and generalist 3D understanding. It benefits diverse tasks, including 3D question answering, embodied navigation, scene retrieval, and embodied localization, all achieved using only geometric inputs (i.e., 3D coordinates). Overall, our POMA-3D explores a point map way to 3D scene understanding, addressing the scarcity of pretrained priors and limited data in 3D representation learning.},
+}
+
+@article{jing2024bidavideo,
+	title = {Match Stereo Videos via Bidirectional Alignment},
+	url = {https://tomtomtommi.github.io/BiDAVideo/},
+	paper_url = {https://arxiv.org/pdf/2409.20283},
+	customauthor = {Junpeng Jing, Ye Mao, Anlan Qiu, and Krystian Mikolajczyk},
+	journal = {TPAMI},
+	volume = {arXiv:2409.20283},
+	year = {2026},
+	image = {/assets/images/publications/bidavideo.png},
+	abstract = {Video stereo matching is the task of estimating consistent disparity maps from rectified stereo videos. There is considerable scope for improvement in both datasets and methods within this area. Recent learning-based methods often focus on optimizing performance for independent stereo pairs, leading to temporal inconsistencies in videos. Existing video methods typically employ sliding window operation over time dimension, which can result in low-frequency oscillations corresponding to the window size. To address these challenges, we propose a bidirectional alignment mechanism for adjacent frames as a fundamental operation. Building on this, we introduce a novel video processing framework, BiDAStereo, and a plugin stabilizer network, BiDAStabilizer, compatible with general image-based methods. Regarding datasets, current synthetic object-based and indoor datasets are commonly used for training and benchmarking, with a lack of outdoor nature scenarios. To bridge this gap, we present a realistic synthetic dataset and benchmark focused on natural scenes, along with a real-world dataset captured by a stereo camera in diverse urban scenes for qualitative evaluation. Extensive experiments on in-domain, out-of-domain, and robustness evaluation demonstrate the contribution of our methods and datasets, showcasing improvements in prediction quality and achieving state-of-the-art results on various commonly used benchmarks.},
 }
 
 @article{ranran2025noposev2,
@@ -40,7 +52,7 @@
 	journal = {International Conference on Computer Vision},
 	customauthor = {Ranran Huang, and Krystian Mikolajczyk},
 	year = {2025},
-	volume = {ICCV},
+	volume = {ICCV Highlight},
 	image = {/assets/images/publications/no_pose_at_all.gif},
 	abstract = {We introduce SPFSplat, an efficient framework for 3D Gaussian splatting from sparse multi-view images, requiring no ground-truth poses during training or inference. It employs a shared feature extraction backbone, enabling simultaneous prediction of 3D Gaussian primitives and camera poses in a canonical space from unposed inputs within a single feed-forward step. Alongside the rendering loss based on estimated novel-view poses, a reprojection loss is integrated to enforce the learning of pixel-aligned Gaussian primitives for enhanced geometric constraints. This pose-free training paradigm and efficient one-step feedforward design make SPFSplat well-suited for practical applications. Remarkably, despite the absence of pose supervision, SPFSplat achieves state-of-the-art performance in novel view synthesis even under significant viewpoint changes and limited image overlap. It also surpasses recent methods trained with geometry priors in relative pose estimation.},
 }
@@ -52,7 +64,7 @@
 	journal={International Conference on Computer Vision},
 	customauthor = {Junpeng Jing, Weixun Luo, Ye Mao, and Krystian Mikolajczyk},
 	year={2025},
-	volume={ICCV},
+	volume={ICCV Highlight},
 	image={/assets/images/publications/stereo_any_video.gif},
 	abstract={This paper introduces Stereo Any Video, a powerful framework for video stereo matching. It can estimate spatially accurate and temporally consistent disparities without relying on auxiliary information such as camera poses or optical flow. The strong capability is driven by rich priors from monocular video depth models, which are integrated with convolutional features to produce stable representations. To further enhance performance, key architectural innovations are introduced: all-to-all-pairs correlation, which constructs smooth and robust matching cost volumes, and temporal convex upsampling, which improves temporal coherence. These components collectively ensure robustness, accuracy, and temporal consistency, setting a new standard in video stereo matching. Extensive experiments demonstrate that our method achieves state-of-the-art performance across multiple datasets both qualitatively and quantitatively in zero-shot settings, as well as strong generalization to real-world indoor and outdoor scenarios.},
 }
@@ -80,18 +92,6 @@
 	volume = {NeurIPS},
 	abstract = {Recent open-world 3D representation learning methods using Vision-Language Models (VLMs) to align 3D point cloud with image-text information have shown superior 3D zero-shot performance. However, CAD-rendered images for this alignment often lack realism and texture variation, compromising alignment robustness. Moreover, the volume discrepancy between 3D and 2D pretraining datasets highlights the need for effective strategies to transfer the representational abilities of VLMs to 3D learning. In this paper, we present OpenDlign, a novel open-world 3D model using depth-aligned images generated from a diffusion model for robust multimodal alignment. These images exhibit greater texture diversity than CAD renderings due to the stochastic nature of the diffusion model. By refining the depth map projection pipeline and designing depth-specific prompts, OpenDlign leverages rich knowledge in pre-trained VLM for 3D representation learning with streamlined fine-tuning. Our experiments show that OpenDlign achieves high zero-shot and few-shot performance on diverse 3D tasks, despite only fine-tuning 6 million parameters on a limited ShapeNet dataset. In zero-shot classification, OpenDlign surpasses previous models by 8.0% on ModelNet40 and 16.4% on OmniObject3D. Additionally, using depth-aligned images for multimodal alignment consistently enhances the performance of other state-of-the-art models.},
 	image = {/assets/images/publications/open_dlign.png},
-}
-
-@article{jing2024bidavideo,
-	title = {Match Stereo Videos via Bidirectional Alignment},
-	url = {https://tomtomtommi.github.io/BiDAVideo/},
-	paper_url = {https://arxiv.org/pdf/2409.20283},
-	customauthor = {Junpeng Jing, Ye Mao, Anlan Qiu, and Krystian Mikolajczyk},
-	journal = {arXiv},
-	volume = {arXiv:2409.20283},
-	year = {2024},
-	image = {/assets/images/publications/bidavideo.png},
-	abstract = {Video stereo matching is the task of estimating consistent disparity maps from rectified stereo videos. There is considerable scope for improvement in both datasets and methods within this area. Recent learning-based methods often focus on optimizing performance for independent stereo pairs, leading to temporal inconsistencies in videos. Existing video methods typically employ sliding window operation over time dimension, which can result in low-frequency oscillations corresponding to the window size. To address these challenges, we propose a bidirectional alignment mechanism for adjacent frames as a fundamental operation. Building on this, we introduce a novel video processing framework, BiDAStereo, and a plugin stabilizer network, BiDAStabilizer, compatible with general image-based methods. Regarding datasets, current synthetic object-based and indoor datasets are commonly used for training and benchmarking, with a lack of outdoor nature scenarios. To bridge this gap, we present a realistic synthetic dataset and benchmark focused on natural scenes, along with a real-world dataset captured by a stereo camera in diverse urban scenes for qualitative evaluation. Extensive experiments on in-domain, out-of-domain, and robustness evaluation demonstrate the contribution of our methods and datasets, showcasing improvements in prediction quality and achieving state-of-the-art results on various commonly used benchmarks.},
 }
 
 @article{jing2024bidastereo,
