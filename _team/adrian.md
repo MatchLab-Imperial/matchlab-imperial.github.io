@@ -1,6 +1,6 @@
 ---
 name: Adrian Lopez Rodriguez
-designation: Research Associate Alumni
+designation: Ph.D. Alumni, Research Associate Alumni
 photo: /assets/images/team/adrian.jpg
 website: 
 email: 
