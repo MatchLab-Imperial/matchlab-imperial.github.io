@@ -1,6 +1,6 @@
 ---
 name: Vassileos Balntas
-designation: Honorary Research Associate
+designation: Ph.D. Alumni, Honorary Research Associate
 photo: /assets/images/team/vassilis.jpg
 website: 
 email: 
