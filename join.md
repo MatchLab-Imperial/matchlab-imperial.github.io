@@ -10,7 +10,7 @@ To apply for a Ph.D., please:
 - check [here](https://www.imperial.ac.uk/electrical-engineering/study/phd/)
 - check our research activities at Publications
 - email k.mikolajczyk@imperial.ac.uk with your CV
-- interview
+- prepare for an interview
 - apply online through [MyImperial](https://myimperial.powerappsportals.com/SignIn?returnUrl=/)
     - Course title: **Electrical and Electronic Engineering Research (PhD)**
     - Application category: **Postgraduate research**
