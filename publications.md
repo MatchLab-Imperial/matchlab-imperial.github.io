@@ -4,7 +4,7 @@ permalink: /publications/
 # type: article
 title: Publications
 description: Publications by yearly categories in reversed chronological order.
-years: [2026, 2025, 2024, 2023]
+years: [2026, 2025, 2024, 2023, 2022, 2021, 2020, 2019, 2018, 2017]
 publication_photo: http://via.placeholder.com/200
 ---
 
