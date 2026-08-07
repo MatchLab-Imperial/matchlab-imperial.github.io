@@ -94,6 +94,106 @@
 	abstract = {Embodied reasoning systems integrate robotic hardware and cognitive processes to perform complex tasks, typically in response to a natural language query about a specific physical environment. This usually involves changing the belief about the scene or physically interacting and changing the scene. We introduce a modular Closed Loop Interactive Embodied Reasoning (CLIER) approach that takes into account measurements of non-visual object properties, changes in the scene caused by external disturbances, and uncertain outcomes of robotic actions. CLIER performs multi-modal reasoning and action planning and generates a sequence of primitive actions that can be executed by a robot manipulator. The method operates in a closed loop, responding to changes in the environment. It is developed using the MuBle simulation environment and evaluated in 10 interactive benchmark scenarios, as well as in real-world manipulation tasks.},
 }
 
+@article{nazarczuk2025muble,
+	title = {MuBlE: MuJoCo and Blender Simulation Environment and Benchmark for Task Planning in Robot Manipulation},
+	paper_url = {https://arxiv.org/pdf/2503.02834},
+	customauthor = {Michal Nazarczuk, Karla Stepanova, Jan Kristof Behrens, Matej Hoffmann, and Krystian Mikolajczyk},
+	journal = {arXiv},
+	year = {2025},
+	volume = {arXiv:2503.02834},
+	image = {/assets/images/publications/mubie.png},
+	abstract = {Current embodied reasoning agents struggle with long-horizon tasks that require physical interaction with the environment to acquire information. We introduce MuBlE, a simulation environment built on robosuite that combines the MuJoCo physics engine with Blender rendering to provide realistic visual observations consistent with the physical state of the scene. MuBlE supports multimodal data generation and closed-loop interaction at both visual-action and control-physics levels. Together with the simulator, we introduce SHOP-VRB2, a benchmark containing ten classes of multi-step reasoning scenarios requiring both visual and physical measurements.},
+}
+
+@article{wu2025mimo,
+	title = {MIMO Channel as a Neural Function: Implicit Neural Representations for Extreme CSI Compression},
+	paper_url = {https://scholar.google.com/citations?view_op=view_citation&hl=en&user=s1IAWfgAAAAJ&sortby=pubdate&citation_for_view=s1IAWfgAAAAJ:a9-T7VOCCH8C},
+	customauthor = {Haotian Wu, Maojun Zhang, Yulin Shao, Krystian Mikolajczyk, and Deniz Gündüz},
+	journal = {IEEE International Conference on Acoustics, Speech and Signal Processing},
+	year = {2025},
+	volume = {ICASSP},
+	image = {/assets/images/publications/mimo.png},
+	abstract = {Acquiring accurate channel state information is crucial for exploiting the benefits of massive multiple-input multiple-output systems. We formulate CSI compression using implicit neural representations, treating each CSI matrix as a neural function mapping spatial coordinates to channel gains. Instead of transmitting the parameters of individual neural functions, low-dimensional modulations derived through meta-learning are transmitted and applied to a shared base network at the receiver to reconstruct the CSI matrix. The proposed approach achieves state-of-the-art CSI compression performance while providing flexibility in feedback strategies.},
+}
+
+@article{kruzliak2024interactive,
+	title = {Interactive Learning of Physical Object Properties Through Robot Manipulation and Database of Object Measurements},
+	paper_url = {https://arxiv.org/pdf/2404.07344},
+	customauthor = {Andrej Kruzliak, Jiri Hartvich, Shubhan P. Patni, Lukas Rustler, Jan Kristof Behrens, Fares J. Abu-Dakka, Krystian Mikolajczyk, Ville Kyrki, and Matej Hoffmann},
+	journal = {IEEE/RSJ International Conference on Intelligent Robots and Systems},
+	year = {2024},
+	volume = {IROS},
+	image = {/assets/images/publications/objprop.png},
+	abstract = {We present a framework for automatically extracting physical object properties such as material composition, mass, volume, and stiffness through robotic manipulation. A Bayesian network represents dependencies between object properties and incorporates uncertainty associated with measurement actions. Exploratory actions are selected according to expected information gain and object properties are updated through Bayesian inference. Experiments demonstrate effective action selection, including cases where physical properties conflict with visual appearance. The system integrates with an online database containing more than 24,000 measurements of 63 objects collected using different grippers.},
+}
+
+@article{wu2024deepjoint,
+	title = {Deep Joint Source-Channel Coding for Adaptive Image Transmission over MIMO Channels},
+	paper_url = {https://arxiv.org/pdf/2309.00470},
+	customauthor = {Haotian Wu, Yulin Shao, Chenghong Bian, Krystian Mikolajczyk, and Deniz Gündüz},
+	journal = {IEEE Transactions on Wireless Communications},
+	year = {2024},
+	volume = {TWC},
+	image = {/assets/images/publications/deepjoint.png},
+	abstract = {We introduce a vision transformer based deep joint source-channel coding scheme for wireless image transmission over multiple-input multiple-output channels. DeepJSCC-MIMO operates in both open-loop and closed-loop MIMO systems and outperforms classical separation-based approaches while remaining robust to channel estimation errors. Through the self-attention mechanism, the model learns feature mapping and power allocation strategies conditioned on both the source image and channel state. The same model adapts to varying channel conditions and antenna configurations without retraining, providing a flexible approach for semantic image communication.},
+}
+
+@article{kolbeinsson2024ddos,
+	title = {DDOS: The Drone Depth and Obstacle Segmentation Dataset},
+	paper_url = {https://arxiv.org/pdf/2312.12494},
+	customauthor = {Benedikt Kolbeinsson, and Krystian Mikolajczyk},
+	journal = {IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+	year = {2024},
+	volume = {CVPRW},
+	image = {/assets/images/publications/ddos.png},
+	abstract = {We introduce the Drone Depth and Obstacle Segmentation dataset, a synthetic aerial dataset designed for semantic segmentation and depth estimation in autonomous drone applications. The dataset emphasizes challenging environmental conditions and the detection of thin structures such as wires, cables, and fences. It contains diverse weather conditions and provides accurate depth and segmentation annotations generated using photorealistic rendering. We also introduce drone-specific evaluation metrics for depth estimation that emphasize thin obstacle detection, providing a benchmark for developing safer and more robust autonomous navigation systems.},
+}
+
+@article{jankowski2024adaptive,
+	title = {Adaptive Early Exiting for Collaborative Inference over Noisy Wireless Channels},
+	paper_url = {https://arxiv.org/pdf/2311.18098},
+	customauthor = {Mikolaj Jankowski, Deniz Gündüz, and Krystian Mikolajczyk},
+	journal = {IEEE International Conference on Machine Learning for Communication and Networking},
+	year = {2024},
+	volume = {ICMLCN},
+	image = {/assets/images/publications/earlyexit.png},
+	abstract = {We study early exiting for collaborative inference systems operating over wireless channels. In these systems, part of a deep neural network runs on a resource-constrained edge device while the remaining computation is performed at an edge server. We introduce transmission-decision mechanisms that use information from an early exit together with wireless channel conditions to decide whether a local prediction should be accepted or intermediate features transmitted to the server. Experiments on image classification show that appropriately exploiting early exits can simultaneously improve inference performance and substantially reduce communication requirements.},
+}
+
+@article{jankowski2024airnet,
+	title = {AirNet: Neural Network Transmission over the Air},
+	paper_url = {https://arxiv.org/pdf/2105.11166},
+	customauthor = {Mikolaj Jankowski, Deniz Gündüz, and Krystian Mikolajczyk},
+	journal = {IEEE Transactions on Wireless Communications},
+	year = {2024},
+	volume = {TWC},
+	image = {/assets/images/publications/airnet.png},
+	abstract = {We introduce AirNet, a family of methods for efficiently transmitting deep neural networks over wireless channels under power and latency constraints. Instead of attempting to reconstruct network parameters with maximum fidelity, AirNet directly maps network parameters to channel symbols and trains the network to tolerate channel noise. The approach combines noise-aware training, pruning, bandwidth expansion, and unequal error protection. AirNet achieves higher task accuracy than separation-based alternatives and can train a spectrum of networks targeting different channel conditions without requiring independent models for every operating point.},
+}
+
+@article{wu2024transformer,
+	title = {Transformer-Aided Wireless Image Transmission With Channel Feedback},
+	paper_url = {https://arxiv.org/pdf/2306.09101},
+	customauthor = {Haotian Wu, Yulin Shao, Emre Ozfatura, Krystian Mikolajczyk, and Deniz Gündüz},
+	journal = {IEEE Transactions on Wireless Communications},
+	year = {2024},
+	volume = {TWC},
+	image = {/assets/images/publications/chfeed.png},
+	abstract = {We present a transformer-based wireless image transmission method that exploits channel output feedback from the receiver. The proposed joint source-channel coding architecture uses a unified encoder across multiple transmission blocks and progressively refines the receiver's reconstruction. Feedback provides information about the channel state and the decoder's current estimate of the source, allowing subsequent coded symbols to be adapted accordingly. The method achieves strong transmission performance, remains robust to noisy feedback, and can adapt to channel conditions without explicit channel estimation. The approach is also extended to broadcast communication with feedback from multiple receivers.},
+}
+
+
+@article{miles2024projector,
+	title = {Understanding the Role of the Projector in Knowledge Distillation},
+	paper_url = {https://www.researchgate.net/profile/Roy-Miles/publication/369379666_Understanding_the_Role_of_the_Projector_in_Knowledge_Distillation/links/64e73e4d434d3f628c4356b4/Understanding-the-Role-of-the-Projector-in-Knowledge-Distillation.pdf},
+	customauthor = {Roy Miles, and Krystian Mikolajczyk},
+	journal = {AAAI Conference on Artificial Intelligence},
+	year = {2024},
+	volume = {AAAI},
+	image = {/assets/images/publications/kdproj.png},
+	abstract = {We revisit knowledge distillation from the perspective of function matching and metric learning and investigate the role of normalization, soft maximum functions, and projection layers. We show theoretically that the projector can implicitly encode information about previous examples, enabling relational gradients for the student network. We further demonstrate that representation normalization interacts strongly with projector training dynamics and that a simple soft maximum formulation can alleviate capacity-gap problems. Experiments on image classification, object detection, and data-efficient transformer training show competitive or superior performance to existing distillation techniques while retaining high computational efficiency.},
+}
+
 @article{ye2024open,
 	title = {OpenDlign: Open-World Point Cloud Understanding with Depth-Aligned Images},
 	url = {https://yebulabula.github.io/OpenDlign/},
@@ -205,4 +305,47 @@
 	volume = {ICCVW},
 	image = {/assets/images/publications/reconstruct.png},
 	abstract = {We present an efficient alternative to the convolutional layer using cheap spatial transformations. This construction exploits an inherent spatial redundancy of the learned convolutional filters to enable a much greater parameter efficiency, while maintaining the top-end accuracy of their dense counter-parts. Training these networks is modelled as a generalised pruning problem, whereby the pruned filters are replaced with cheap transformations from the set of non-pruned filters. We provide an efficient implementation of the proposed layer, followed by two natural extensions to avoid excessive feature compression and to improve the expressivity of the transformed features. We show that these networks can achieve comparable or improved performance to state-of-the-art pruning models across both the CIFAR-10 and ImageNet-1K datasets.},
+}
+
+@article{auty2023learning,
+	title = {Learning to Prompt CLIP for Monocular Depth Estimation: Exploring the Limits of Human Language},
+	paper_url = {https://openaccess.thecvf.com/content/ICCV2023W/OpenSUN3D/papers/Auty_Learning_to_Prompt_CLIP_for_Monocular_Depth_Estimation_Exploring_the_ICCVW_2023_paper.pdf},
+	customauthor = {Dylan Auty, and Krystian Mikolajczyk},
+	journal = {IEEE/CVF International Conference on Computer Vision Workshops},
+	year = {2023},
+	volume = {ICCVW},
+	image = {/assets/images/publications/lprompt.png},
+	abstract = {CLIP has demonstrated strong general-purpose visual and linguistic representations and can be applied to zero-shot monocular depth estimation using depth-related text prompts. We investigate whether human-language prompts impose an unnecessary limitation by replacing discrete language prompts with continuous learnable tokens. Learned prompts substantially improve depth estimation performance and do not map cleanly onto depth-related human language. The results suggest that some concepts encoded by CLIP may not be succinctly expressible through natural-language prompts and motivate the use of non-linguistic learned tokens for open-ended visual understanding tasks.},
+}
+
+@article{wu2023vision,
+	title = {Vision Transformer for Adaptive Image Transmission over MIMO Channels},
+	paper_url = {https://arxiv.org/pdf/2210.15347},
+	customauthor = {Haotian Wu, Yulin Shao, Chenghong Bian, Krystian Mikolajczyk, and Deniz Gündüz},
+	journal = {IEEE International Conference on Communications},
+	year = {2023},
+	volume = {ICC},
+	image = {/assets/images/publications/imagemimo.png},
+abstract = {We propose ViT-MIMO, a vision transformer based joint source-channel coding scheme for wireless image transmission over multiple-input multiple-output systems. The architecture outperforms conventional separation-based approaches while adapting to different channel conditions without retraining. By exploiting self-attention, ViT-MIMO learns feature mappings and power allocation jointly from the source image and current channel state. Numerical experiments demonstrate improved image transmission quality over a wide range of operating conditions, illustrating the potential of transformer architectures for adaptive semantic communication.},
+}
+
+@article{wu2023features,
+	title = {Features-over-the-Air: Contrastive Learning Enabled Cooperative Edge Inference},
+	paper_url = {https://arxiv.org/pdf/2304.08221},
+	customauthor = {Haotian Wu, Nitish Mital, Krystian Mikolajczyk, and Deniz Gündüz},
+	journal = {arXiv},
+	year = {2023},
+	volume = {arXiv:2304.08221},
+	image = {/assets/images/publications/featair.png},
+	abstract = {We study collaborative image retrieval at the wireless edge, where multiple devices observe the same object and jointly communicate visual features to an edge server over a shared multiple-access channel. We propose a semantic non-orthogonal multiple-access framework in which extracted features are mapped directly to channel inputs and combined over the air. A contrastive-learning based semantic communication method exploits correlations among observations by treating noisy correlated signals as different views of the same identity. Experiments demonstrate strong retrieval performance, particularly under low signal-to-noise ratios and constrained communication bandwidth.},
+}
+@article{ren2023grasp,
+	title = {Grasp-Oriented Fine-Grained Cloth Segmentation without Real Supervision},
+	paper_url = {https://dl.acm.org/doi/pdf/10.1145/3589572.3589594},
+	customauthor = {Ruijie Ren, Mohit Gurnani Rajesh, Jordi Sanchez-Riera, Adrian Lopez-Rodriguez, Fan Zhang, Yurun Tian, Guillem Alenya, Antonio Agudo, Yiannis Demiris, Krystian Mikolajczyk, and Francesc Moreno-Noguer},
+	journal = {International Conference on Machine Vision and Applications},
+	year = {2023},
+	volume = {ICMVA},
+	image = {/assets/images/publications/graspcloth.png},
+	abstract = {We address fine-grained grasp-oriented segmentation of deformable clothes from depth images. Rather than detecting isolated grasping points, the proposed approach recognizes larger semantic regions useful for manipulation tasks such as folding and assisted dressing. For T-shirts, we define semantic regions corresponding to the neckline, sleeve cuffs, hem, and grasping points and train a U-Net based model to identify them. We further introduce a multilayer domain adaptation strategy that requires no manually annotated real training images. Experiments on real depth images show that training with synthetic annotations and the proposed domain adaptation achieves performance competitive with methods using real-data supervision.},
 }
