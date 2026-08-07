@@ -8,6 +8,9 @@ We are always looking for outstanding candidates for recently opened PhD scholar
 
 To apply for a Ph.D., please:
 - check [here](https://www.imperial.ac.uk/electrical-engineering/study/phd/)
+- check our research activities at Publications
+- email k.mikolajczyk@imperial.ac.uk with your CV
+- interview
 - apply online through [MyImperial](https://myimperial.powerappsportals.com/SignIn?returnUrl=/)
     - Course title: **Electrical and Electronic Engineering Research (PhD)**
     - Application category: **Postgraduate research**
@@ -16,4 +19,4 @@ To apply for a Ph.D., please:
     - Proposed research group: **Intelligent Systems and Networks**
 - prepare your research statement as required by the college in the area of Computer Vision and Machine Learning
 - fill in the application form and submit
-- email k.mikolajczyk@imperial.ac.uk
+
